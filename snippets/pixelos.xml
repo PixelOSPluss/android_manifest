@@ -46,7 +46,7 @@
   <project path="packages/apps/ParanoidSense" name="PixelOS-AOSP/android_packages_apps_ParanoidSense" remote="github" />
   <project path="packages/apps/DocumentsUI" name="PixelOS-AOSP/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="github" />
   <project path="packages/apps/Settings" name="PixelOSPluss/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="github" />
-  <project path="packages/apps/TouchGestures" name="PixelOS-AOSP/android_packages_apps_TouchGestures" remote="github" />
+  <project path="packages/apps/TouchGestures" name="PixelOSPluss/android_packages_apps_TouchGestures" remote="github" />
   <project path="packages/apps/Updater" name="PixelOS-AOSP/android_packages_apps_Updater" remote="github" />
   <project path="packages/apps/CertInstaller" name="PixelOS-AOSP/android_packages_apps_CertInstaller" groups="pdk" remote="github" />
   <project path="packages/apps/KeyChain" name="PixelOS-AOSP/android_packages_apps_KeyChain" groups="pdk" remote="github" />
