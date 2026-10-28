@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- kebab project forks -->
+  <remote name="oplus-kona" fetch="https://github.com/oplus-kona" />
+
   <!-- LineageOS additions -->
   <project path="device/lineage/sepolicy" name="PixelOSPluss/android_device_lineage_sepolicy" remote="github" />
   <project path="external/bash" name="LineageOS/android_external_bash" revision="lineage-24.0" remote="lineageos" />
@@ -12,7 +15,7 @@
   <project path="external/unrar" name="LineageOS/android_external_unrar" revision="lineage-24.0" remote="lineageos" />
   <project path="external/vim" name="LineageOS/android_external_vim" revision="lineage-24.0" remote="lineageos" />
   <project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" remote="lineageos" />
-  <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="lineageos" />
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" revision="lineage-24.0" remote="oplus-kona" />
   <project path="packages/apps/EuiccPolicy" name="LineageOS/android_packages_apps_EuiccPolicy" revision="lineage-24.0" remote="lineageos" />
   <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" revision="lineage-24.0" remote="lineageos" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" revision="lineage-24.0" remote="lineageos" />
